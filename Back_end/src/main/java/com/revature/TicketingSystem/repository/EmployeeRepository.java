@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.revature.TicketingSystem.entity.Employee;
 
-
 @Repository
 public interface EmployeeRepository extends JpaRepository <Employee, Integer> {
 

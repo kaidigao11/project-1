@@ -25,7 +25,7 @@ create table ticket (
 -- Starting test values with prefilled ids to avoid test issues
 
 -- admin
-insert into employee values (9999, TRUE, 'admin', 'admin');
+--insert into employee values (9999, TRUE, 'admin', 'admin');
 --insert into employee values (9998, 'user', 'password', FALSE);
 --insert into employee values (9997, 'user1', 'password', FALSE);
 

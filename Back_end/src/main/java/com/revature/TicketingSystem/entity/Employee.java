@@ -1,12 +1,13 @@
 package com.revature.TicketingSystem.entity;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import jakarta.persistence.*;
-import lombok.extern.java.Log;
 
 @Entity
 @Table(name="employee")
-@Log
 public class Employee {
+    @Autowired
     @Column(name="employeeId")
     @Id 
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -22,9 +23,12 @@ public class Employee {
     private Boolean isAdmin;
 
     // default constructor
-    public Employee(){}
+    public Employee(){
+
+    }
 
     // param constructor
+    @Autowired
     public Employee(String username, String password, Boolean isAdmin){
         this.username = username;
         this.password = password;
@@ -32,6 +36,7 @@ public class Employee {
     }
 
     // param constructor with Id
+    @Autowired
     public Employee(Integer employeeId, String username, String password, Boolean isAdmin){
         this.employeeId = employeeId;
         this.username = username;

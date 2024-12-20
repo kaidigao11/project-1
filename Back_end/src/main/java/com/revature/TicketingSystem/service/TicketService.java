@@ -7,7 +7,6 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.revature.TicketingSystem.entity.Ticket;
-import com.revature.TicketingSystem.repository.EmployeeRepository;
 import com.revature.TicketingSystem.repository.TicketRepository;
 
 import jakarta.transaction.Transactional;

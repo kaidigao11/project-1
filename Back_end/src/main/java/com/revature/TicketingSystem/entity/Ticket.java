@@ -1,10 +1,14 @@
 package com.revature.TicketingSystem.entity;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 import jakarta.persistence.*;
 
 @Entity
 @Table(name="ticket")
 public class Ticket {
+    @Autowired
     @Column(name="ticketId")
     @Id 
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -25,8 +29,11 @@ public class Ticket {
     @Column(name="ticketChangeable")
     private Boolean ticketChangeable;
 
-    public Ticket(){}
+    public Ticket(){
 
+    }
+
+    @Autowired
     public Ticket(Integer submittedBy, Double amount, String ticketDescription, String ticketStatus, Boolean ticketChangeable){
         this.submittedBy = submittedBy;
         this.amount = amount;
@@ -35,6 +42,7 @@ public class Ticket {
         this.ticketChangeable = ticketChangeable;
     }
 
+    @Autowired
     public Ticket(Integer ticketId, Integer submittedBy, Double amount, String ticketDescription, String ticketStatus, Boolean ticketChangeable){
         this.ticketId = ticketId;
         this.submittedBy = submittedBy;
