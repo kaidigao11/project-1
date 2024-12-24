@@ -84,7 +84,6 @@ public class Employee {
         this.isAdmin = isAdmin;
     }
     
-    /* 
     @Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -118,5 +117,5 @@ public class Employee {
 		return true;
 	}
 
-*/
+
 }

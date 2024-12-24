@@ -1,15 +1,27 @@
-import React, { FormEvent, useState } from "react";
+import React, { FormEvent, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import RegisterPageComponent from "./Register/RegisterPageComponent";
+import { EmployeeContext } from "../Contexts/UserContext";
+import axios from "axios";
 
 function RegisterManagementComponent() {
+  const context = useContext(EmployeeContext);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  function onSubmithandler(e: FormEvent) {
+  function onSubmithandler(e: any) {
     e.preventDefault();
-    console.log(e.target);
+    axios
+      .post("http://localhost:8080/register", {
+        username: username,
+        password: password,
+        isAdmin: false,
+      })
+      .then((response) => {
+        alert('Please continue to login');
+      })
+      .catch((error) => console.error("Error posting data, ", error));
     navigate("/login");
   }
 

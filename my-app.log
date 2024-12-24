@@ -1,21 +1,21 @@
-2024-12-20T07:06:08.552-05:00  INFO 28532 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 28532 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
-2024-12-20T07:06:08.558-05:00  INFO 28532 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-20T07:06:09.078-05:00  INFO 28532 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-20T07:06:09.135-05:00  INFO 28532 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
-2024-12-20T07:06:09.623-05:00  INFO 28532 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-20T07:06:09.632-05:00  INFO 28532 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-20T07:06:09.633-05:00  INFO 28532 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-20T07:06:09.688-05:00  INFO 28532 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-20T07:06:09.689-05:00  INFO 28532 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
-2024-12-20T07:06:09.816-05:00  INFO 28532 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-20T07:06:10.333-05:00  INFO 28532 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3dbd7107
-2024-12-20T07:06:10.335-05:00  INFO 28532 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-20T07:06:10.405-05:00  INFO 28532 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-20T07:06:10.468-05:00  INFO 28532 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2024-12-20T07:06:10.510-05:00  INFO 28532 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-20T07:06:10.789-05:00  INFO 28532 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-20T07:06:10.860-05:00  WARN 28532 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-20T07:06:10.923-05:00  INFO 28532 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-23T17:00:47.674-05:00  INFO 33664 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 33664 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T17:00:47.682-05:00  INFO 33664 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T17:00:48.275-05:00  INFO 33664 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T17:00:48.354-05:00  INFO 33664 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2024-12-23T17:00:48.913-05:00  INFO 33664 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T17:00:48.927-05:00  INFO 33664 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T17:00:48.927-05:00  INFO 33664 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T17:00:49.004-05:00  INFO 33664 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T17:00:49.005-05:00  INFO 33664 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2024-12-23T17:00:49.134-05:00  INFO 33664 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T17:00:49.661-05:00  INFO 33664 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72fbf94d
+2024-12-23T17:00:49.663-05:00  INFO 33664 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T17:00:49.743-05:00  INFO 33664 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T17:00:49.805-05:00  INFO 33664 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T17:00:49.846-05:00  INFO 33664 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T17:00:50.125-05:00  INFO 33664 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T17:00:50.205-05:00  WARN 33664 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T17:00:50.267-05:00  INFO 33664 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.3
@@ -23,32 +23,37 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-20T07:06:11.544-05:00  INFO 28532 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-20T07:06:11.641-05:00  INFO 28532 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-20T07:06:11.912-05:00  WARN 28532 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-20T07:06:12.328-05:00  INFO 28532 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-20T07:06:12.338-05:00  INFO 28532 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.178 seconds (process running for 4.485)
-2024-12-20T07:19:55.224-05:00  INFO 28532 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-20T07:19:55.225-05:00  INFO 28532 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-20T07:19:55.226-05:00  INFO 28532 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-20T07:49:32.998-05:00  INFO 27832 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 27832 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
-2024-12-20T07:49:33.003-05:00  INFO 27832 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-20T07:49:33.546-05:00  INFO 27832 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-20T07:49:33.602-05:00  INFO 27832 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-2024-12-20T07:49:34.130-05:00  INFO 27832 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-20T07:49:34.145-05:00  INFO 27832 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-20T07:49:34.146-05:00  INFO 27832 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-20T07:49:34.203-05:00  INFO 27832 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-20T07:49:34.204-05:00  INFO 27832 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
-2024-12-20T07:49:34.333-05:00  INFO 27832 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-20T07:49:34.821-05:00  INFO 27832 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa5974e
-2024-12-20T07:49:34.823-05:00  INFO 27832 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-20T07:49:34.888-05:00  INFO 27832 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-20T07:49:34.945-05:00  INFO 27832 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2024-12-20T07:49:34.984-05:00  INFO 27832 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-20T07:49:35.233-05:00  INFO 27832 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-20T07:49:35.314-05:00  WARN 27832 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-20T07:49:35.376-05:00  INFO 27832 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-23T17:00:50.934-05:00  INFO 33664 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T17:00:51.037-05:00  INFO 33664 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T17:00:51.348-05:00  WARN 33664 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T17:00:51.854-05:00  INFO 33664 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T17:00:51.865-05:00  INFO 33664 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.605 seconds (process running for 4.938)
+2024-12-23T17:01:01.892-05:00  INFO 33664 --- [TicketingSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T17:01:01.893-05:00  INFO 33664 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T17:01:01.894-05:00  INFO 33664 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T17:14:16.447-05:00  INFO 33664 --- [TicketingSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T17:14:16.707-05:00  INFO 33664 --- [TicketingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T17:14:16.712-05:00  INFO 33664 --- [TicketingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T17:14:16.716-05:00  INFO 33664 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T17:14:16.971-05:00  INFO 33664 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T17:14:20.073-05:00  INFO 34104 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 34104 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T17:14:20.075-05:00  INFO 34104 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T17:14:20.622-05:00  INFO 34104 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T17:14:20.678-05:00  INFO 34104 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2024-12-23T17:14:21.177-05:00  INFO 34104 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T17:14:21.189-05:00  INFO 34104 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T17:14:21.189-05:00  INFO 34104 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T17:14:21.259-05:00  INFO 34104 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T17:14:21.260-05:00  INFO 34104 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2024-12-23T17:14:21.383-05:00  INFO 34104 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T17:14:21.910-05:00  INFO 34104 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37af24cb
+2024-12-23T17:14:21.912-05:00  INFO 34104 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T17:14:21.978-05:00  INFO 34104 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T17:14:22.023-05:00  INFO 34104 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T17:14:22.059-05:00  INFO 34104 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T17:14:22.315-05:00  INFO 34104 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T17:14:22.406-05:00  WARN 34104 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T17:14:22.472-05:00  INFO 34104 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.3
@@ -56,11 +61,316 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-20T07:49:36.001-05:00  INFO 27832 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-20T07:49:36.102-05:00  INFO 27832 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-20T07:49:36.374-05:00  WARN 27832 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-20T07:49:36.848-05:00  INFO 27832 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-20T07:49:36.859-05:00  INFO 27832 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.24 seconds (process running for 4.526)
-2024-12-20T07:55:47.439-05:00  INFO 27832 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-20T07:55:47.440-05:00  INFO 27832 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-20T07:55:47.441-05:00  INFO 27832 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T17:14:23.115-05:00  INFO 34104 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T17:14:23.229-05:00  INFO 34104 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T17:14:23.505-05:00  WARN 34104 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T17:14:23.926-05:00  INFO 34104 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T17:14:23.937-05:00  INFO 34104 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.266 seconds (process running for 4.567)
+2024-12-23T17:14:39.885-05:00  INFO 34104 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T17:14:39.886-05:00  INFO 34104 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T17:14:39.888-05:00  INFO 34104 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T17:15:44.788-05:00  WARN 34104 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2024-12-23T17:30:05.601-05:00  WARN 34104 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2024-12-23T17:30:53.019-05:00  INFO 28208 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 28208 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T17:30:53.022-05:00  INFO 28208 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T17:30:53.553-05:00  INFO 28208 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T17:30:53.608-05:00  INFO 28208 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2024-12-23T17:30:54.106-05:00  INFO 28208 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T17:30:54.124-05:00  INFO 28208 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T17:30:54.125-05:00  INFO 28208 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T17:30:54.188-05:00  INFO 28208 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T17:30:54.189-05:00  INFO 28208 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1128 ms
+2024-12-23T17:30:54.345-05:00  INFO 28208 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T17:30:54.873-05:00  INFO 28208 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa5974e
+2024-12-23T17:30:54.875-05:00  INFO 28208 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T17:30:54.954-05:00  INFO 28208 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T17:30:55.015-05:00  INFO 28208 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T17:30:55.064-05:00  INFO 28208 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T17:30:55.320-05:00  INFO 28208 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T17:30:55.395-05:00  WARN 28208 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T17:30:55.454-05:00  INFO 28208 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T17:30:56.038-05:00  INFO 28208 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T17:30:56.139-05:00  INFO 28208 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T17:30:56.416-05:00  WARN 28208 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T17:30:56.835-05:00  INFO 28208 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T17:30:56.844-05:00  INFO 28208 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.229 seconds (process running for 4.514)
+2024-12-23T17:31:00.141-05:00  INFO 28208 --- [TicketingSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T17:31:00.142-05:00  INFO 28208 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T17:31:00.143-05:00  INFO 28208 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T17:41:35.284-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/octet-stream' is not supported]
+2024-12-23T17:41:45.108-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.revature.TicketingSystem.entity.Employee> com.revature.TicketingSystem.controller.TicketingSystemController.loginEmployeeHandler(com.revature.TicketingSystem.entity.Employee)]
+2024-12-23T17:41:48.544-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.revature.TicketingSystem.entity.Employee> com.revature.TicketingSystem.controller.TicketingSystemController.loginEmployeeHandler(com.revature.TicketingSystem.entity.Employee)]
+2024-12-23T17:43:09.919-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-12-23T18:00:44.596-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-12-23T18:01:31.123-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-12-23T18:01:55.465-05:00  WARN 28208 --- [TicketingSystem] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.revature.TicketingSystem.entity.Employee> com.revature.TicketingSystem.controller.TicketingSystemController.loginEmployeeHandler(com.revature.TicketingSystem.entity.Employee)]
+2024-12-23T18:18:30.625-05:00  INFO 29444 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 29444 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T18:18:30.628-05:00  INFO 29444 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T18:18:31.152-05:00  INFO 29444 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T18:18:31.210-05:00  INFO 29444 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2024-12-23T18:18:31.691-05:00  INFO 29444 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T18:18:31.701-05:00  INFO 29444 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T18:18:31.702-05:00  INFO 29444 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T18:18:31.772-05:00  INFO 29444 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T18:18:31.772-05:00  INFO 29444 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1111 ms
+2024-12-23T18:18:31.926-05:00  INFO 29444 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T18:18:32.473-05:00  INFO 29444 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa5974e
+2024-12-23T18:18:32.474-05:00  INFO 29444 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T18:18:32.547-05:00  INFO 29444 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T18:18:32.607-05:00  INFO 29444 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T18:18:32.655-05:00  INFO 29444 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T18:18:32.922-05:00  INFO 29444 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T18:18:33.013-05:00  WARN 29444 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T18:18:33.075-05:00  INFO 29444 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T18:18:33.719-05:00  INFO 29444 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T18:18:33.835-05:00  INFO 29444 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:18:34.124-05:00  WARN 29444 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T18:18:34.554-05:00  INFO 29444 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T18:18:34.565-05:00  INFO 29444 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.329 seconds (process running for 4.617)
+2024-12-23T18:18:39.900-05:00  INFO 29444 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T18:18:39.901-05:00  INFO 29444 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T18:18:39.902-05:00  INFO 29444 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T18:19:17.403-05:00  INFO 3604 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 3604 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T18:19:17.406-05:00  INFO 3604 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T18:19:17.922-05:00  INFO 3604 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T18:19:17.977-05:00  INFO 3604 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2024-12-23T18:19:18.478-05:00  INFO 3604 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T18:19:18.488-05:00  INFO 3604 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T18:19:18.488-05:00  INFO 3604 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T18:19:18.562-05:00  INFO 3604 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T18:19:18.563-05:00  INFO 3604 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1119 ms
+2024-12-23T18:19:18.704-05:00  INFO 3604 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T18:19:19.213-05:00  INFO 3604 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61037caf
+2024-12-23T18:19:19.215-05:00  INFO 3604 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T18:19:19.286-05:00  INFO 3604 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T18:19:19.350-05:00  INFO 3604 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T18:19:19.397-05:00  INFO 3604 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T18:19:19.672-05:00  INFO 3604 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T18:19:19.753-05:00  WARN 3604 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T18:19:19.815-05:00  INFO 3604 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T18:19:20.395-05:00  INFO 3604 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T18:19:20.507-05:00  INFO 3604 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:19:20.777-05:00  WARN 3604 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T18:19:21.192-05:00  INFO 3604 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T18:19:21.202-05:00  INFO 3604 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.192 seconds (process running for 4.491)
+2024-12-23T18:19:22.579-05:00  INFO 3604 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T18:19:22.580-05:00  INFO 3604 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T18:19:22.581-05:00  INFO 3604 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T18:19:33.188-05:00  INFO 16572 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 16572 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T18:19:33.190-05:00  INFO 16572 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T18:19:33.705-05:00  INFO 16572 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T18:19:33.763-05:00  INFO 16572 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2024-12-23T18:19:34.253-05:00  INFO 16572 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T18:19:34.263-05:00  INFO 16572 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T18:19:34.264-05:00  INFO 16572 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T18:19:34.331-05:00  INFO 16572 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T18:19:34.331-05:00  INFO 16572 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1107 ms
+2024-12-23T18:19:34.478-05:00  INFO 16572 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T18:19:34.987-05:00  INFO 16572 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ed49a7f
+2024-12-23T18:19:34.989-05:00  INFO 16572 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T18:19:35.057-05:00  INFO 16572 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T18:19:35.112-05:00  INFO 16572 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T18:19:35.154-05:00  INFO 16572 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T18:19:35.395-05:00  INFO 16572 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T18:19:35.469-05:00  WARN 16572 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T18:19:35.532-05:00  INFO 16572 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T18:19:36.158-05:00  INFO 16572 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T18:19:36.272-05:00  INFO 16572 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:19:36.522-05:00  WARN 16572 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T18:19:36.975-05:00  INFO 16572 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T18:19:36.987-05:00  INFO 16572 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.18 seconds (process running for 4.485)
+2024-12-23T18:19:38.017-05:00  INFO 16572 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T18:19:38.018-05:00  INFO 16572 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T18:19:38.019-05:00  INFO 16572 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T18:22:53.632-05:00  INFO 26524 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 26524 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T18:22:53.635-05:00  INFO 26524 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T18:22:54.162-05:00  INFO 26524 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T18:22:54.222-05:00  INFO 26524 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2024-12-23T18:22:54.738-05:00  INFO 26524 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T18:22:54.752-05:00  INFO 26524 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T18:22:54.753-05:00  INFO 26524 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T18:22:54.821-05:00  INFO 26524 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T18:22:54.822-05:00  INFO 26524 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1144 ms
+2024-12-23T18:22:54.964-05:00  INFO 26524 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T18:22:55.509-05:00  INFO 26524 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ed49a7f
+2024-12-23T18:22:55.511-05:00  INFO 26524 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T18:22:55.587-05:00  INFO 26524 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T18:22:55.641-05:00  INFO 26524 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T18:22:55.685-05:00  INFO 26524 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T18:22:55.949-05:00  INFO 26524 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T18:22:56.048-05:00  WARN 26524 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T18:22:56.111-05:00  INFO 26524 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T18:22:56.751-05:00  INFO 26524 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T18:22:56.857-05:00  INFO 26524 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:22:57.136-05:00  WARN 26524 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T18:22:57.547-05:00  INFO 26524 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T18:22:57.558-05:00  INFO 26524 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.323 seconds (process running for 4.659)
+2024-12-23T18:23:02.232-05:00  INFO 8352 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 8352 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T18:23:02.234-05:00  INFO 8352 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T18:23:02.749-05:00  INFO 8352 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T18:23:02.803-05:00  INFO 8352 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2024-12-23T18:23:03.262-05:00  INFO 8352 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T18:23:03.271-05:00  INFO 8352 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T18:23:03.272-05:00  INFO 8352 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T18:23:03.328-05:00  INFO 8352 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T18:23:03.329-05:00  INFO 8352 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1059 ms
+2024-12-23T18:23:03.430-05:00  INFO 8352 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T18:23:03.928-05:00  INFO 8352 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@619c93ca
+2024-12-23T18:23:03.930-05:00  INFO 8352 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T18:23:03.991-05:00  INFO 8352 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T18:23:04.038-05:00  INFO 8352 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T18:23:04.070-05:00  INFO 8352 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T18:23:04.292-05:00  INFO 8352 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T18:23:04.363-05:00  WARN 8352 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T18:23:04.425-05:00  INFO 8352 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T18:23:05.069-05:00  INFO 8352 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T18:23:05.179-05:00  INFO 8352 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:23:05.463-05:00  WARN 8352 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T18:23:05.913-05:00  INFO 8352 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T18:23:05.922-05:00  INFO 8352 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.082 seconds (process running for 4.371)
+2024-12-23T18:23:11.316-05:00  INFO 8352 --- [TicketingSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T18:23:11.317-05:00  INFO 8352 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T18:23:11.318-05:00  INFO 8352 --- [TicketingSystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T18:54:20.251-05:00  INFO 8352 --- [TicketingSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T18:54:20.357-05:00  INFO 8352 --- [TicketingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T18:54:20.359-05:00  INFO 8352 --- [TicketingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T18:54:20.361-05:00  INFO 8352 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T18:54:20.613-05:00  INFO 8352 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T21:15:44.314-05:00  INFO 30804 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Starting TicketingSystemApplication using Java 17.0.13 with PID 30804 (C:\Users\winso\Desktop\Revature\Projects\project-1\Back_end\target\classes started by winso in C:\Users\winso\Desktop\Revature\Projects\project-1)
+2024-12-23T21:15:44.316-05:00  INFO 30804 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T21:15:44.875-05:00  INFO 30804 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T21:15:44.934-05:00  INFO 30804 --- [TicketingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2024-12-23T21:15:45.423-05:00  INFO 30804 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T21:15:45.432-05:00  INFO 30804 --- [TicketingSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T21:15:45.433-05:00  INFO 30804 --- [TicketingSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-23T21:15:45.503-05:00  INFO 30804 --- [TicketingSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T21:15:45.504-05:00  INFO 30804 --- [TicketingSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1149 ms
+2024-12-23T21:15:45.667-05:00  INFO 30804 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T21:15:46.210-05:00  INFO 30804 --- [TicketingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cd6b1bd
+2024-12-23T21:15:46.212-05:00  INFO 30804 --- [TicketingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T21:15:46.279-05:00  INFO 30804 --- [TicketingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T21:15:46.325-05:00  INFO 30804 --- [TicketingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-23T21:15:46.361-05:00  INFO 30804 --- [TicketingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T21:15:46.632-05:00  INFO 30804 --- [TicketingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T21:15:46.734-05:00  WARN 30804 --- [TicketingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T21:15:46.795-05:00  INFO 30804 --- [TicketingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T21:15:47.432-05:00  INFO 30804 --- [TicketingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T21:15:47.533-05:00  INFO 30804 --- [TicketingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T21:15:47.821-05:00  WARN 30804 --- [TicketingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T21:15:48.244-05:00  INFO 30804 --- [TicketingSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T21:15:48.253-05:00  INFO 30804 --- [TicketingSystem] [main] c.r.T.TicketingSystemApplication         : Started TicketingSystemApplication in 4.332 seconds (process running for 4.641)
+2024-12-23T21:24:42.260-05:00  INFO 30804 --- [TicketingSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T21:24:42.261-05:00  INFO 30804 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T21:24:42.262-05:00  INFO 30804 --- [TicketingSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T21:55:52.982-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:55:53.014-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:57:36.561-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:57:36.566-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:57:46.407-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:57:46.413-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:58:16.603-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T21:58:16.606-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:01:23.226-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:01:23.231-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:02:00.929-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:02:03.909-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:03:10.237-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:03:10.269-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:03:46.385-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:03:46.391-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:04:35.159-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:04:35.165-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:06:22.017-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:06:22.027-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:06:46.066-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:06:46.073-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:16.846-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:16.859-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:24.678-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:24.688-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:31.737-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:31.745-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:52.980-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T22:09:52.987-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:25:05.097-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:25:05.110-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:25:39.129-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:25:39.138-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:34:11.768-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:34:12.251-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:34:12.416-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:34:12.556-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:34:12.685-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:38:19.885-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:38:21.662-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:41:51.419-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:41:51.424-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:41:52.361-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:41:52.828-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:41:53.311-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:07.757-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:08.374-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:08.547-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:08.702-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:23.121-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:30.541-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:42.880-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:55.303-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:44:55.976-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:45:15.624-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:45:24.408-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:45:24.416-05:00  WARN 30804 --- [TicketingSystem] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'submittedBy': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "undefined"]
+2024-12-23T23:55:49.080-05:00  INFO 30804 --- [TicketingSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T23:55:49.180-05:00  INFO 30804 --- [TicketingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T23:55:49.185-05:00  INFO 30804 --- [TicketingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T23:55:49.191-05:00  INFO 30804 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T23:55:49.442-05:00  INFO 30804 --- [TicketingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
