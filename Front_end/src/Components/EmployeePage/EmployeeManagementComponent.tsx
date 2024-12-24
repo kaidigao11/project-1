@@ -1,14 +1,37 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import TicketComponent from "./TicketComponent";
 import ViewPastTicketsComponent from "./ViewPastTicketsComponent";
 import { Link, useNavigate } from "react-router-dom";
-import { EmployeeContext } from "../../Contexts/UserContext";
+import { EmployeeContext } from "../Contexts/UserContext";
+import axios from "axios";
 
 function EmployeePageComponent() {
   const context = useContext(EmployeeContext);
   const navigate = useNavigate();
+  const [amount, setAmount] = useState(0);
+  const [ticketDescription, setTicketDescription] = useState("");
   if (!context) {
     throw new Error("Employee info must be used within a user provider");
+  }
+
+  function handleSubmitTicket(e: any) {
+    e.preventDefault();
+    axios
+      .post("http://localhost:8080/tickets", {
+        submittedBy: context?.employee?.employeeId,
+        amount,
+        ticketDescription,
+        ticketStatus: "Pending",
+        ticketChangeable: true,
+      })
+      .then((response) => {
+        alert("ticket submitted successfully");
+        setAmount(0);
+        setTicketDescription("");
+      })
+      .catch((error) => {
+        alert("ticket did not get posted");
+      });
   }
 
   return (
@@ -22,10 +45,11 @@ function EmployeePageComponent() {
         >
           Logout
         </button>
-      </nav>
-      EmployeePageComponent
-      <br />
-      <TicketComponent />
+       
+      </nav> 
+      <p>Welcome {context.employee?.username}!</p>
+      <p>Submit your ticket reimbursement</p>
+      <TicketComponent amount={amount} setAmount={setAmount} ticketDescription={ticketDescription} setTicketDescription={setTicketDescription} handleSubmit={handleSubmitTicket}/>
       <br />
       <ViewPastTicketsComponent />
     </>

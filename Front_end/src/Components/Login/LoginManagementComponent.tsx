@@ -1,11 +1,10 @@
 import React, { FormEvent, useContext, useState } from "react";
-import LoginPageComponent from "./Login/LoginPageComponent";
-import RegisterPageComponent from "./Register/RegisterPageComponent";
+import LoginPageComponent from "./LoginPageComponent";
+import RegisterPageComponent from "../Register/RegisterPageComponent";
 import { Link, useNavigate } from "react-router-dom";
 import { Employee, EmployeeContext } from "../Contexts/UserContext";
 import axios from "axios";
 import { error } from "console";
-
 
 interface EmployeeLoginInfo {
   user: Employee;
@@ -28,10 +27,23 @@ function LoginManagementComponent() {
         isAdmin: false,
       })
       .then((response) => {
-        context?.login(response.data.employeeId, response.data.username, response.data.password, response.data.isAdmin);
+        context?.login(
+            response.data.employeeId,
+            response.data.username,
+            response.data.password,
+            response.data.isAdmin
+          ); 
+        if (response.data.isAdmin == false) {
+          navigate("/employee");
+        } 
+        if(response.data.isAdmin == true){
+          navigate("/admin");
+        }
       })
-      .catch((error) => console.error("Error posting data, ", error));
-      navigate("/employee");
+      .catch((error) => {
+        alert("Username or password incorrect");
+      }
+      );
   }
 
   return (

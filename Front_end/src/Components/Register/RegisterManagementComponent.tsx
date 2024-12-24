@@ -1,6 +1,6 @@
 import React, { FormEvent, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import RegisterPageComponent from "./Register/RegisterPageComponent";
+import RegisterPageComponent from "./RegisterPageComponent";
 import { EmployeeContext } from "../Contexts/UserContext";
 import axios from "axios";
 

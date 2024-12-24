@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { EmployeeContext } from "../../Contexts/UserContext";
+import { EmployeeContext } from "../Contexts/UserContext";
 import axios from "axios";
 import { logDOM } from "@testing-library/react";
 
@@ -29,11 +29,10 @@ function ViewPastTicketsComponent() {
   return (
     <>
 
-      ViewPastTicketsComponent
       <br></br>
       {!loading ? <button onClick={()=>setLoading(!loading)}>Show past tickets</button> : <button onClick={()=>setLoading(!loading)}>Collapse</button>}
-      {loading &&
-        data.map((item:any) => {
+      {loading && 
+        (data.map((item:any) => {
           return(
             <ul>
               <li key={item.ticketId}><p>Ticket ID: {item.ticketId}</p></li>
@@ -44,7 +43,8 @@ function ViewPastTicketsComponent() {
               <br></br>
             </ul>
           )
-        })}
+        })) 
+      } 
     </>
   );
 }
