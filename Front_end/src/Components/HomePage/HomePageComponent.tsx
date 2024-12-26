@@ -20,7 +20,7 @@ function HomePageComponent() {
       
 
       <br/>
-      HomePageComponent
+      HomePage
       <br/>
       {/* <img src={logo} alt="logo"></img> */}
 

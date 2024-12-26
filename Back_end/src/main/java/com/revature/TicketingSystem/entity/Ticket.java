@@ -108,47 +108,47 @@ public class Ticket {
     }
     
     // ticketchangable setter
-    public void setEmployeeId(Boolean ticketChangeable) {
+    public void setTicketChangeable(Boolean ticketChangeable) {
         this.ticketChangeable = ticketChangeable;
     }
 
-    @Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Ticket other = (Ticket) obj;
-		if (ticketId == null) {
-			if (other.ticketId != null)
-				return false;
-		} else if (!ticketId.equals(other.ticketId))
-			return false;
-        if (amount == null) {
-            if (other.amount != null)
-                return false;
-        } else if (!amount.equals(other.amount))
-            return false;
-		if (ticketDescription == null) {
-			if (other.ticketDescription != null)
-				return false;
-		} else if (!ticketDescription.equals(other.ticketDescription))
-			return false;
-		if (ticketStatus == null) {
-			if (other.ticketStatus != null)
-				return false;
-		} else if (!ticketStatus.equals(other.ticketStatus))
-			return false;
-        if (ticketChangeable == false && other.ticketChangeable == true) {
-            return false;
-        }
-        if (ticketChangeable == true && other.ticketChangeable == false) {
-            return false;
-        }
-		return true;
-	}
+    // @Override
+	// public boolean equals(Object obj) {
+	// 	if (this == obj)
+	// 		return true;
+	// 	if (obj == null)
+	// 		return false;
+	// 	if (getClass() != obj.getClass())
+	// 		return false;
+	// 	Ticket other = (Ticket) obj;
+	// 	if (ticketId == null) {
+	// 		if (other.ticketId != null)
+	// 			return false;
+	// 	} else if (!ticketId.equals(other.ticketId))
+	// 		return false;
+    //     if (amount == null) {
+    //         if (other.amount != null)
+    //             return false;
+    //     } else if (!amount.equals(other.amount))
+    //         return false;
+	// 	if (ticketDescription == null) {
+	// 		if (other.ticketDescription != null)
+	// 			return false;
+	// 	} else if (!ticketDescription.equals(other.ticketDescription))
+	// 		return false;
+	// 	if (ticketStatus == null) {
+	// 		if (other.ticketStatus != null)
+	// 			return false;
+	// 	} else if (!ticketStatus.equals(other.ticketStatus))
+	// 		return false;
+    //     if (ticketChangeable == false && other.ticketChangeable == true) {
+    //         return false;
+    //     }
+    //     if (ticketChangeable == true && other.ticketChangeable == false) {
+    //         return false;
+    //     }
+	// 	return true;
+	// }
 
 
 

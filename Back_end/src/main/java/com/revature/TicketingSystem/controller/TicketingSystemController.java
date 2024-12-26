@@ -32,7 +32,7 @@ public class TicketingSystemController {
 
     
     @PostMapping(value = "/register")
-    public ResponseEntity createNewEmployeeHandler(@RequestBody Employee newEmployee) {
+    public ResponseEntity<Employee> createNewEmployeeHandler(@RequestBody Employee newEmployee) {
         Employee resultEmployee = employeeService.createNewEmployee(newEmployee);
         if (resultEmployee!=null) {
             return ResponseEntity.status(200).body(resultEmployee);

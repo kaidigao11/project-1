@@ -84,38 +84,38 @@ public class Employee {
         this.isAdmin = isAdmin;
     }
     
-    @Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Employee other = (Employee) obj;
-		if (employeeId == null) {
-			if (other.employeeId != null)
-				return false;
-		} else if (!employeeId.equals(other.employeeId))
-			return false;
-		if (password == null) {
-			if (other.password != null)
-				return false;
-		} else if (!password.equals(other.password))
-			return false;
-		if (username == null) {
-			if (other.username != null)
-				return false;
-		} else if (!username.equals(other.username))
-			return false;
-        if (isAdmin == false && other.isAdmin == true) {
-            return false;
-        }
-        if (isAdmin == true && other.isAdmin == false) {
-            return false;
-        }
-		return true;
-	}
+    // @Override
+	// public boolean equals(Object obj) {
+	// 	if (this == obj)
+	// 		return true;
+	// 	if (obj == null)
+	// 		return false;
+	// 	if (getClass() != obj.getClass())
+	// 		return false;
+	// 	Employee other = (Employee) obj;
+	// 	if (employeeId == null) {
+	// 		if (other.employeeId != null)
+	// 			return false;
+	// 	} else if (!employeeId.equals(other.employeeId))
+	// 		return false;
+	// 	if (password == null) {
+	// 		if (other.password != null)
+	// 			return false;
+	// 	} else if (!password.equals(other.password))
+	// 		return false;
+	// 	if (username == null) {
+	// 		if (other.username != null)
+	// 			return false;
+	// 	} else if (!username.equals(other.username))
+	// 		return false;
+    //     if (isAdmin == false && other.isAdmin == true) {
+    //         return false;
+    //     }
+    //     if (isAdmin == true && other.isAdmin == false) {
+    //         return false;
+    //     }
+	// 	return true;
+	// }
 
 
 }
