@@ -12,9 +12,10 @@ function TicketComponent({amount, setAmount, ticketDescription, setTicketDescrip
 
   return (
     <>
-    <form onSubmit={handleSubmit}>
+    <form style={{display: "block" , width: "50"}} onSubmit={handleSubmit}>
         <label>Amount: </label>
         <input
+        className="form-control-sm"
           type="text"
           placeholder="amount"
           value={amount}
@@ -23,13 +24,14 @@ function TicketComponent({amount, setAmount, ticketDescription, setTicketDescrip
         <br />
         <label>Description:</label>
         <input
+        className="form-control-sm"
           type="text"
           placeholder="description"
           value={ticketDescription}
           onChange={(e: any) => setTicketDescription(e.target.value)}
         />
         <br />
-        <button type="submit">Submit</button>
+        <button style={{marginTop:"2px"}} type="submit" className="btn btn-primary">Submit</button>
       </form>
     
     </>

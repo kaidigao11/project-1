@@ -10,11 +10,12 @@ function LoginPageComponent({username, setUsername, password, setPassword, handl
 
   return (
     <>
+      <form style={{position: "absolute", top: "30%", left: "50%", marginTop: "-50px", marginLeft: "-50px", width: "200px"}} onSubmit={handleSubmit}>
       <p>Login to Existing Account</p>
-      <form onSubmit={handleSubmit}>
         <label>Username:</label>
         <input
           type="text"
+          className="form-control-sm"
           placeholder="username"
           value={username}
           onChange={(e: any) => setUsername(e.target.value)}
@@ -23,12 +24,13 @@ function LoginPageComponent({username, setUsername, password, setPassword, handl
         <label>Password:</label>
         <input
           type="password"
+          className="form-control-sm"
           placeholder="password"
           value={password}
           onChange={(e: any) => setPassword(e.target.value)}
         />
         <br />
-        <button type="submit">
+        <button style={{marginTop:"20px"}} type="submit" className="btn btn-primary">
           Submit
         </button>
         

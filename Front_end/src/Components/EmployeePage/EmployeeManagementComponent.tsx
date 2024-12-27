@@ -47,7 +47,7 @@ function EmployeePageComponent() {
         </button>
        
       </nav> 
-      <p>Welcome {context.employee?.username}!</p>
+      <strong style={{fontSize: "40px"}}>Welcome {context.employee?.username}!</strong>
       <p>Submit your ticket reimbursement</p>
       <TicketComponent amount={amount} setAmount={setAmount} ticketDescription={ticketDescription} setTicketDescription={setTicketDescription} handleSubmit={handleSubmitTicket}/>
       <br />

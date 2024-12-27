@@ -68,17 +68,31 @@ function ViewActiveTicketsComponent() {
                 
               return (
                 <div key={mapItem.ticketId}>
-                  <table>
-                    <tbody>Amount: ${mapItem.amount}</tbody>
-                    <tbody>Submitted By employee: {mapItem.submittedBy}</tbody>
-                    <tbody>Description: {mapItem.ticketDescription}</tbody>
-                    <tbody>
-                      <button onClick={() => handleApprove(mapItem.ticketId )}>Approve</button>
-                      <button onClick={() => handleDeny(mapItem.ticketId)}>Deny</button>
-                    </tbody>
-                  </table>
-                  <br></br>
+                  <table className="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Ticket ID</th>
+                  <th>Submitted By</th>
+                  <th>Amount</th>
+                  <th>Description</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <td>{mapItem.ticketId}</td>
+                <td>{mapItem.submittedBy}</td>
+                <td>{mapItem.amount}</td>
+                <td>{mapItem.ticketDescription}</td>
+                <td>
+                <button onClick={() => handleApprove(mapItem.ticketId )}>Approve</button>
+                <button onClick={() => handleDeny(mapItem.ticketId)}>Deny</button>
+                </td>
+              </tbody>
+            </table>
                 </div>
+              
+
+
               );
             })
         ) : 

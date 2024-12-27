@@ -23,7 +23,7 @@ function AdminPageComponent() {
           Logout
         </button>
       </nav>
-      <p>Welcome Administrator {context.employee?.username}!</p>
+      <strong style={{fontSize: "40px"}}>Welcome Administrator {context.employee?.username}!</strong>
       <p>Approve or deny tickets below</p>
       <ViewActiveTicketsComponent />
     </>

@@ -50,7 +50,7 @@ function LoginManagementComponent() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          Ticketing System
+        RevTicketing
         </Link>
       </nav>
 

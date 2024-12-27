@@ -12,29 +12,32 @@ function RegisterPageComponent({username, setUsername, password, setPassword, ha
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          Ticketing System
+        RevTicketing
         </Link>
       </nav>
 
-      <p>Regester New Account</p>
-      <form onSubmit={handleSubmit}>
-        <label>Username:</label>
+
+      <form style={{position: "absolute", top: "30%", left: "50%", marginTop: "-50px", marginLeft: "-50px", width: "200px"}}  onSubmit={handleSubmit}>      
+        <p>Regester New Account</p>
+        <label>Username: </label>
         <input
           type="text"
+          className="form-control-sm"
           placeholder="username"
           value={username}
           onChange={(e: any) => setUsername(e.target.value)}
         />
         <br />
-        <label>Password:</label>
+        <label>Password: </label>
         <input
           type="password"
+          className="form-control-sm"
           placeholder="password"
           value={password}
           onChange={(e: any) => setPassword(e.target.value)}
         />
         <br />
-        <button type="submit">Submit</button>
+        <button style={{marginTop:"20px"}} type="submit" className="btn btn-primary">Submit</button>
       </form>
     </>
   );
